@@ -18,7 +18,14 @@ const Navbar = () => (
         className='w-[24px] h-[24px] object-contain'
       ></img>
       <h2 className="font-extrabold text-[24px] leading-[30px] text-white">
-        METAVERSUS</h2>
+        METAVERSUS
+      </h2>
+      <img 
+      src ="/menu.svg" 
+      alt="menu"
+      className='w-[24px] h-[24px] object-contain'
+      >
+      </img>
     </div>
   </motion.nav>
 );
